@@ -1,7 +1,5 @@
 package org.example;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 public class Bonus1 {
     int[][] array;
     int size;

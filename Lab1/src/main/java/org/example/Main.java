@@ -7,11 +7,18 @@ public class Main {
 //        ObligatoriuRunner();
 //        LatinSquareRunner(args);
 
-        for (int i = 0; i < 4; i++) {
-            Bonus1 bonus1 = new Bonus1(4);
-            bonus1.Multiply(i+1);
-            bonus1.Print();
+//        for (int i = 0; i < 4; i++) {
+//            Bonus1 bonus1 = new Bonus1(4);
+//            bonus1.Multiply(i+1);
+//            bonus1.Print();
+//        }
+
+        Bonus2 bonus2 = new Bonus2(8, 3);
+        if(!bonus2.Construct()){
+            System.out.println("Cannot construct a matrix with these parameters");
+            return;
         }
+        bonus2.Print();
     }
     public static void ObligatoriuRunner() {
         String[] languages = new String[]{"C", "C++", "C#", "Python", "Go", "Rust", "JavaScript", "PHP", "Swift", "Java"};
