@@ -1,21 +1,29 @@
-package ro.tedyst.locations;
-
-import ro.tedyst.LocationType;
+package ro.tedyst.location;
 
 import java.util.Objects;
 
-public class Location {
+public abstract class Location {
     private String name;
-    private LocationType type;
     private int x, y;
 
-    public Location(String name, LocationType type, int x, int y) {
+    /**
+     * The constructor for Location
+     * @param name the name of the location
+     * @param x the x coordinate
+     * @param y the y coordinate
+     */
+    public Location(String name, int x, int y) {
         this.name = name;
-        this.type = type;
         this.x = x;
         this.y = y;
     }
 
+    /**
+     * Calculates the euclidean distance between this instance and b
+     *
+     * @param b the second location
+     * @return the euclidean distance between a and b
+     */
     public float euclideanDistanceToLocation(Location b){
         if(b == null)
             return Float.MAX_VALUE;
@@ -28,14 +36,6 @@ public class Location {
 
     public int getY() {
         return y;
-    }
-
-    public LocationType getType() {
-        return type;
-    }
-
-    public void setType(LocationType type) {
-        this.type = type;
     }
 
     public String getName() {
@@ -64,23 +64,13 @@ public class Location {
         if (x != location.x) return false;
         if (y != location.y) return false;
         if (!Objects.equals(name, location.name)) return false;
-        return type == location.type;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = name != null ? name.hashCode() : 0;
-        result = 31 * result + (type != null ? type.hashCode() : 0);
-        result = 31 * result + x;
-        result = 31 * result + y;
-        return result;
+        return true;
     }
 
     @Override
     public String toString() {
         return "Location{" +
                 "name='" + name + '\'' +
-                ", type=" + type +
                 ", x=" + x +
                 ", y=" + y +
                 '}';
