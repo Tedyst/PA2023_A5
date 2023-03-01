@@ -77,13 +77,23 @@ public class Problem {
      */
     public ArrayList<Location> neighbouringLocations(Location loc){
         ArrayList<Location> neighbours = new ArrayList<>();
-        for(Road r : roads){
-            if(loc == r.getLocationA())
+        for (Road r : roads) {
+            if (loc == r.getLocationA())
                 neighbours.add(r.getLocationB());
-            else if(loc == r.getLocationB())
+            else if (loc == r.getLocationB())
                 neighbours.add(r.getLocationA());
         }
         return neighbours;
+    }
+
+    public Road getRoadBetweenTwoLocations(Location a, Location b) {
+        for (Road r : roads) {
+            if (r.getLocationA() == a && r.getLocationB() == b)
+                return r;
+            if (r.getLocationA() == b && r.getLocationB() == a)
+                return r;
+        }
+        return null;
     }
 
     /**
@@ -91,8 +101,8 @@ public class Problem {
      *
      * @param location The location that will be added if it is valid
      */
-    public void addLocation(Location location){
-        if(locations.contains(location))
+    public void addLocation(Location location) {
+        if (locations.contains(location))
             return;
         locations.add(location);
     }
