@@ -1,7 +1,7 @@
 package ro.tedyst.location;
 
 public class GasStation extends Location {
-    public GasStation(String name, int x, int y, int population) {
+    public GasStation(String name, int x, int y) {
         super(name, x, y);
     }
 

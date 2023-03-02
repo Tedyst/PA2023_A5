@@ -10,6 +10,7 @@ public class Solution {
     final private Map<Location, Boolean> visited = new HashMap<>();
     final private Map<Location, Location> prev = new HashMap<>();
     final private PriorityQueue<Location> queue;
+    private float totalDist = 0;
     Problem p;
 
     public Solution(Problem p) {
@@ -26,9 +27,11 @@ public class Solution {
             dist.put(location, Float.MAX_VALUE);
             prev.put(location, null);
             visited.put(location, false);
-            queue.add(location);
         }
         dist.put(p.getStart(), 0f);
+        for (Location location : p.getLocations()) {
+            queue.add(location);
+        }
         return true;
     }
 
@@ -55,11 +58,18 @@ public class Solution {
 
     private void computeSolution() {
         Location loc = p.getEnd();
+        totalDist = 0;
         while (prev.get(loc) != null) {
             route.add(0, loc);
+            totalDist += p.getRoadBetweenTwoLocations(loc, prev.get(loc)).getLength();
             loc = prev.get(loc);
         }
+
         route.add(0, p.getStart());
+    }
+
+    public float getTotalDist() {
+        return totalDist;
     }
 
     public Map<Location, Float> getDist() {
@@ -69,4 +79,6 @@ public class Solution {
     public List<Location> getRoute() {
         return route;
     }
+
+
 }

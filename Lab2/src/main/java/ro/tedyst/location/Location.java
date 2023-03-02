@@ -25,9 +25,10 @@ public abstract class Location {
      * @return the euclidean distance between a and b
      */
     public float euclideanDistanceToLocation(Location b){
-        if(b == null)
+        if (b == null)
             return Float.MAX_VALUE;
-        return (float)Math.abs(x - b.getX()) * (float)Math.abs(y - b.getY());
+        return (float) Math.abs(x - b.getX()) * (float) Math.abs(x - b.getX()) +
+                (float) Math.abs(y - b.getY()) * (float) Math.abs(y - b.getY());
     }
 
     public int getX() {

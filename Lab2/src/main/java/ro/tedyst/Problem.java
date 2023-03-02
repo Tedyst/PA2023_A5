@@ -66,7 +66,11 @@ public class Problem {
      * @return true if the instance is valid
      */
     public boolean isValid(){
-        return !locations.isEmpty() && !roads.isEmpty() && start != null && end != null;
+        return !locations.isEmpty() &&
+                !roads.isEmpty() &&
+                start != null &&
+                end != null &&
+                canReachLocation(start, end);
     }
 
     /**
@@ -167,7 +171,9 @@ public class Problem {
     public String toString() {
         return "Problem{" +
                 "location=" + locations +
-                ", road=" + roads +
+                ", start=" + start +
+                ", end=" + end +
+//                ", road=" + roads +
                 '}';
     }
 }
