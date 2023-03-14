@@ -66,11 +66,28 @@ public class ProblemGenerator {
 
     private void generateRoads() {
         Random rand = new Random();
-        for (int roadGenerated = 0;
+        Road road;
+        for(int roadGenerated = 0; roadGenerated < cityCount && roadGenerated < roadCount; roadGenerated++){
+            if (rand.nextInt(2) == 1) {
+                road = new ExpressRoad(
+                        "road" + roadGenerated,
+                        problem.getLocations().get(roadGenerated),
+                        problem.getLocations().get(roadGenerated + 1)
+                );
+            } else {
+                road = new HighwayRoad(
+                        "road" + roadGenerated,
+                        problem.getLocations().get(roadGenerated),
+                        problem.getLocations().get(roadGenerated + 1),
+                        100
+                );
+            }
+            problem.addRoad(road);
+        }
+        for (int roadGenerated = cityCount;
              roadGenerated <= roadCount && roadGenerated <= cityCount * (cityCount - 1);
              roadGenerated++
         ) {
-            Road road;
             int loc1_id = rand.nextInt(problem.getLocations().size());
             int loc2_id = rand.nextInt(problem.getLocations().size());
             while (loc1_id == loc2_id && problem.getLocations().size() != 1)

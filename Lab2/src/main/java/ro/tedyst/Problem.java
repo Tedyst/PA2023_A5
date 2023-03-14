@@ -4,6 +4,7 @@ import ro.tedyst.location.Location;
 import ro.tedyst.road.Road;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -43,18 +44,18 @@ public class Problem {
      */
     public boolean canReachLocation(Location a, Location b) {
         Queue<Location> q = new LinkedList<>();
-        ArrayList<Location> visited = new ArrayList<>();
+        HashMap<Location, Boolean> visited = new HashMap<>();
         q.add(a);
         while(!q.isEmpty()){
             Location l = q.remove();
-            if(visited.contains(l))
+            if(visited.containsKey(visited))
                 continue;
-            visited.add(l);
+            visited.put(l, true);
             if(l == b){
                 return true;
             }
             for(Location neighbor : neighbouringLocations(l))
-                if(!visited.contains(neighbor))
+                if(!visited.containsKey(neighbor))
                     q.add(neighbor);
         }
         return false;
