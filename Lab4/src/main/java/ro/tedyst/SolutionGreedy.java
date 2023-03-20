@@ -8,10 +8,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Solution {
+public class SolutionGreedy {
     private Problem problem;
 
-    public Solution(Problem p) {
+    public SolutionGreedy(Problem p) {
         this.problem = p;
     }
 
