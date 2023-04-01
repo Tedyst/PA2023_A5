@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Welcome!</title>
+</head>
+<body>
+<table border=1>
+    <#list documents as document>
+        <tr>
+            <td>${document.name}</td>
+            <td>${document.path}</td>
+            <td>
+                <#if document.tags??>
+                    <#list document.tags as tag, value>
+                        ${tag} - ${value}
+                    </#list>
+                </#if>
+            </td>
+        </tr>
+    </#list>
+</table>
+</body>
+</html>
