@@ -1,0 +1,14 @@
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/ListCommand.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/CatalogUtils.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/Document.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/Main.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/CatalogException.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/CommandException.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/ReportCommand.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/Catalog.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/SaveCommand.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/AddCommand.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/ViewCommand.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/ToStringCommand.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/GenericCommand.java
+/home/tedy/Git/PA2023_A5/Lab5/src/main/java/ro/tedyst/commands/LoadCommand.java
