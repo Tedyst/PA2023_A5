@@ -4,11 +4,9 @@ import java.util.*;
 
 public class GameAI {
     private Game game;
-    private Set<Edge> gameEdges;
 
     public GameAI(Game game) {
         this.game = game;
-        this.gameEdges = new HashSet<>(game.getEdges());
     }
 
     public List<Edge> getEdgesOfColor(EdgeColor color) {
@@ -21,20 +19,20 @@ public class GameAI {
         return edges;
     }
 
-    public List<Edge> getAlmostTriangles(Collection<Edge> edges) {
+    public List<Edge> getAlmostTriangles(List<Edge> edges) {
         List<Edge> almostTriangles = new ArrayList<>();
         for (Edge e1 : edges) {
             for (Edge e2 : edges) {
                 if (e1 == e2)
                     continue;
-                if (e1.getFrom() == e2.getFrom() && gameEdges.contains(new Edge(e1.getTo(), e2.getTo()))) {
-                    almostTriangles.add(new Edge(e1.getTo(), e2.getTo()));
-                } else if (e1.getFrom() == e2.getTo() && gameEdges.contains(new Edge(e1.getTo(), e2.getFrom()))) {
-                    almostTriangles.add(new Edge(e1.getTo(), e2.getFrom()));
-                } else if (e1.getTo() == e2.getFrom() && gameEdges.contains(new Edge(e1.getFrom(), e2.getTo()))) {
-                    almostTriangles.add(new Edge(e1.getFrom(), e2.getTo()));
-                } else if (e1.getTo() == e2.getTo() && gameEdges.contains(new Edge(e1.getFrom(), e2.getFrom()))) {
-                    almostTriangles.add(new Edge(e1.getFrom(), e2.getFrom()));
+                if (e1.getSource() == e2.getSource() && game.getEdgeBetween(e1.getTarget(), e2.getTarget()) != null && game.getEdgeBetween(e1.getTarget(), e2.getTarget()).getColor() == EdgeColor.NONE) {
+                    almostTriangles.add(game.getEdgeBetween(e1.getTarget(), e2.getTarget()));
+                } else if (e1.getSource() == e2.getTarget() && game.getEdgeBetween(e1.getTarget(), e2.getSource()) != null && game.getEdgeBetween(e1.getTarget(), e2.getSource()).getColor() == EdgeColor.NONE) {
+                    almostTriangles.add(game.getEdgeBetween(e1.getTarget(), e2.getSource()));
+                } else if (e1.getTarget() == e2.getSource() && game.getEdgeBetween(e1.getSource(), e2.getTarget()) != null && game.getEdgeBetween(e1.getSource(), e2.getTarget()).getColor() == EdgeColor.NONE) {
+                    almostTriangles.add(game.getEdgeBetween(e1.getSource(), e2.getTarget()));
+                } else if (e1.getTarget() == e2.getTarget() && game.getEdgeBetween(e1.getSource(), e2.getSource()) != null && game.getEdgeBetween(e1.getSource(), e2.getSource()).getColor() == EdgeColor.NONE) {
+                    almostTriangles.add(game.getEdgeBetween(e1.getSource(), e2.getSource()));
                 }
             }
         }
@@ -48,7 +46,7 @@ public class GameAI {
                 if(e1 == e2 || edges.contains(e2)) {
                     continue;
                 }
-                if(e2.getColor() == color && (e1.getFrom() == e2.getFrom() || e1.getFrom() == e2.getTo() || e1.getTo() == e2.getFrom() || e1.getTo() == e2.getTo())){
+                if(e2.getColor() == color && (e1.getSource() == e2.getSource() || e1.getSource() == e2.getTarget() || e1.getTarget() == e2.getSource() || e1.getTarget() == e2.getTarget())){
                     neighboringEdges.add(e2);
                 }
             }

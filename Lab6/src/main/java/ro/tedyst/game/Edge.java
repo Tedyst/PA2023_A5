@@ -1,25 +1,29 @@
 package ro.tedyst.game;
 
-public class Edge {
-    private Node from;
-    private Node to;
+import org.jgrapht.graph.DefaultEdge;
+
+public class Edge extends DefaultEdge {
+    private Node source;
+    private Node target;
     private EdgeColor color = EdgeColor.NONE;
 
     private Edge(){
 
     }
 
-    public Edge(Node from, Node to) {
-        this.from = from;
-        this.to = to;
+    public Edge(Node source, Node target) {
+        this.source = source;
+        this.target = target;
     }
 
-    public Node getFrom() {
-        return from;
+    @Override
+    public Node getSource() {
+        return source;
     }
 
-    public Node getTo() {
-        return to;
+    @Override
+    public Node getTarget() {
+        return target;
     }
 
     public void setColor(EdgeColor color) {
@@ -37,15 +41,15 @@ public class Edge {
 
         Edge edge = (Edge) o;
 
-        if (getFrom() != null ? !getFrom().equals(edge.getFrom()) : edge.getFrom() != null) return false;
-        if (getTo() != null ? !getTo().equals(edge.getTo()) : edge.getTo() != null) return false;
+        if (getSource() != null ? !getSource().equals(edge.getSource()) : edge.getSource() != null) return false;
+        if (getTarget() != null ? !getTarget().equals(edge.getTarget()) : edge.getTarget() != null) return false;
         return getColor() == edge.getColor();
     }
 
     @Override
     public int hashCode() {
-        int result = getFrom() != null ? getFrom().hashCode() : 0;
-        result = 31 * result + (getTo() != null ? getTo().hashCode() : 0);
+        int result = getSource() != null ? getSource().hashCode() : 0;
+        result = 31 * result + (getTarget() != null ? getTarget().hashCode() : 0);
         result = 31 * result + (getColor() != null ? getColor().hashCode() : 0);
         return result;
     }
@@ -53,8 +57,8 @@ public class Edge {
     @Override
     public String toString() {
         return "Edge{" +
-                "from=" + from +
-                ", to=" + to +
+                "source=" + source +
+                ", target=" + target +
                 ", color=" + color +
                 '}';
     }

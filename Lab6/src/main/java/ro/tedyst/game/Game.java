@@ -1,6 +1,8 @@
 package ro.tedyst.game;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.jgrapht.GraphMetrics;
+import org.jgrapht.graph.SimpleGraph;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,11 +55,23 @@ public class Game {
             return;
         if(state == GameState.PLAYER_1_TURN){
             e.setColor(EdgeColor.BLUE);
-        }
-        else {
+        } else if (state == GameState.PLAYER_2_TURN) {
             e.setColor(EdgeColor.RED);
+        } else {
+            System.out.println("Invalid state: " + state);
         }
         state = nextState();
+        System.out.println("State: " + state);
+    }
+
+    public Edge getEdgeBetween(Node source, Node target){
+        for(Edge e : edges){
+            if(e.getSource() == source && e.getTarget() == target)
+                return e;
+            if(e.getSource() == target && e.getTarget() == source)
+                return e;
+        }
+        return null;
     }
 
     public GameState nextState() {
@@ -78,8 +92,20 @@ public class Game {
         return GameState.DRAW;
     }
 
-    public boolean checkForTriangles(){
-        return false;
+    public boolean checkForTrianglesColor(EdgeColor color){
+        SimpleGraph<Node, Edge> graph = new SimpleGraph<>(Edge.class);
+        for (Node n : this.nodes) {
+            graph.addVertex(n);
+        }
+        for (Edge e : this.edges) {
+            if(e.getColor() == color)
+                graph.addEdge(e.getSource(), e.getTarget(), e);
+        }
+        return GraphMetrics.getNumberOfTriangles(graph) > 0;
+    }
+
+    public boolean checkForTriangles() {
+        return checkForTrianglesColor(EdgeColor.RED) || checkForTrianglesColor(EdgeColor.BLUE);
     }
 
     @JsonIgnore

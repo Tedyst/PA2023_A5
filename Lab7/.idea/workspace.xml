@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd765bdc-d493-4736-991d-9aa42ed4c654" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/main/java/ro/tedyst/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/main/java/ro/tedyst/SharedMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab7/src/main/java/ro/tedyst/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="609993d1-1644-48a2-b206-92858f85ef57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Daemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/GameMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/SharedMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab6/src/main/java/ro/tedyst/DrawingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/main/java/ro/tedyst/DrawingPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab6/src/main/java/ro/tedyst/game/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/src/main/java/ro/tedyst/game/Edge.java" afterDir="false" />
@@ -38,22 +44,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2NKLtIENHJPBANryDmipv5qvwID" />
+  <component name="ProjectId" id="2NxmbDaWEoytzzeAIBJgJCb24F2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -61,30 +62,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/tedy/Git/PA2023_A5/Lab8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ro.tedyst.commands" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.tedyst.Main" />
-      <module name="Lab5" />
+      <module name="Lab7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,25 +90,29 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd765bdc-d493-4736-991d-9aa42ed4c654" name="Changes" comment="" />
-      <created>1679408039772</created>
+      <changelist id="609993d1-1644-48a2-b206-92858f85ef57" name="Changes" comment="" />
+      <created>1680614177429</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679408039772</updated>
-      <workItem from="1679408040851" duration="5350000" />
-      <workItem from="1679748921188" duration="8002000" />
-      <workItem from="1679759482348" duration="383000" />
-      <workItem from="1679844073084" duration="2244000" />
-      <workItem from="1680346182592" duration="696000" />
-      <workItem from="1680352516422" duration="582000" />
-      <workItem from="1680614131240" duration="402000" />
+      <updated>1680614177429</updated>
+      <workItem from="1680614178421" duration="5173000" />
+      <workItem from="1682158786551" duration="131000" />
+      <workItem from="1682158945485" duration="30000" />
+      <workItem from="1682428518139" duration="164000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

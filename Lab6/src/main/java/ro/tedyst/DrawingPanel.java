@@ -10,7 +10,7 @@ import java.awt.image.BufferedImage;
 
 public class DrawingPanel extends JPanel {
     final MainFrame frame;
-    final static int W = 800, H = 600, MAX_DISTANCE_CLICK = 3;
+    final static int W = 800, H = 600, MAX_DISTANCE_CLICK = 5;
     private int numVertices;
     private double edgeProbability;
     private int[] x, y;
@@ -30,6 +30,8 @@ public class DrawingPanel extends JPanel {
             public void mousePressed(MouseEvent e) {
                 if(frame.getGame() == null)
                     return;
+                if(frame.getGame().getState() != GameState.PLAYER_1_TURN)
+                    return;
                 Edge edge = GameUtils.getClosestEdge(frame.getGame().getEdges(), e.getX(), e.getY(), MAX_DISTANCE_CLICK);
                 if (edge == null || edge.getColor() != EdgeColor.NONE)
                     return;
@@ -39,10 +41,10 @@ public class DrawingPanel extends JPanel {
                     createBoard();
                     switch(frame.getGame().getState()){
                         case PLAYER_1_WIN:
-                            frame.createPopup("Game finished! Winner: RED");
-                            break;
-                        case PLAYER_2_TURN:
                             frame.createPopup("Game finished! Winner: BLUE");
+                            break;
+                        case PLAYER_2_WIN:
+                            frame.createPopup("Game finished! Winner: RED");
                             break;
                         case DRAW:
                             frame.createPopup("Game finished! Winner: DRAW");
@@ -72,6 +74,8 @@ public class DrawingPanel extends JPanel {
     }
 
     private void drawLines() {
+        Stroke oldStroke = graphics.getStroke();
+        graphics.setStroke(new BasicStroke(3));
         for(Edge e : this.frame.getGame().getEdges()){
             switch(e.getColor()){
                 case RED:
@@ -84,9 +88,9 @@ public class DrawingPanel extends JPanel {
                     graphics.setColor(Color.BLACK);
                     break;
             }
-            graphics.drawLine(e.getFrom().getX(), e.getFrom().getY(), e.getTo().getX(), e.getTo().getY());
+            graphics.drawLine(e.getSource().getX(), e.getSource().getY(), e.getTarget().getX(), e.getTarget().getY());
         }
-
+        graphics.setStroke(oldStroke);
     }
     private void drawVertices() {
         graphics.setColor(Color.BLACK);
