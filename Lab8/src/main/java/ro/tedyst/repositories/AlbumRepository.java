@@ -4,6 +4,7 @@ import ro.tedyst.Database;
 import ro.tedyst.models.Album;
 import ro.tedyst.models.Artist;
 
+import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
