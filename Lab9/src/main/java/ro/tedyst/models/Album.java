@@ -13,9 +13,10 @@ public class Album {
     private String title;
 
     @ManyToOne
-    private Genre genre;
+    private List<Genre> genre;
 
     @ManyToOne
+    @JoinColumn(name = "artist_id")
     private Artist artist;
 
     public Integer getReleaseYear() {
