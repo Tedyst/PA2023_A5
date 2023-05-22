@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="724865ce-a9de-4e14-ba20-26bdc850b17f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab9/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/database.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab9/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/database.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab9/src/main/java/ro/tedyst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/src/main/java/ro/tedyst/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab9/src/main/java/ro/tedyst/models/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/src/main/java/ro/tedyst/models/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2PYeD0x8pSxf3LCfLpYupDVWdvE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="724865ce-a9de-4e14-ba20-26bdc850b17f" name="Changes" comment="" />
+      <created>1683638319227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683638319227</updated>
+      <workItem from="1683638320245" duration="1000" />
+    </task>
+    <servers />
+  </component>
+</project>
