@@ -5,37 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="724865ce-a9de-4e14-ba20-26bdc850b17f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Client/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Client/ReadingThread.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Server/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/GameManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/commands/CreateGameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/commands/JoinGameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/commands/PlaceCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/commands/QuitGameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/commands/SetNameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/commands/ShowBoardCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/commands/StopCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/ro/tedyst/models/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab9/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/database.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab9/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/database.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab9/src/main/java/ro/tedyst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/src/main/java/ro/tedyst/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Lab9/src/main/java/ro/tedyst/models/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/src/main/java/ro/tedyst/models/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="2PYeD0x8pSxf3LCfLpYupDVWdvE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tedy/Git/PA2023_A5/lab10/Server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,8 +84,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683638319227</updated>
-      <workItem from="1683638320245" duration="1000" />
+      <workItem from="1683638320245" duration="2447000" />
+      <workItem from="1683986462031" duration="428000" />
+      <workItem from="1683995344718" duration="1263000" />
+      <workItem from="1684233075749" duration="3000" />
+      <workItem from="1684243184671" duration="375000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

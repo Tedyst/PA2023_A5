@@ -12,8 +12,8 @@ public class Album {
     private Integer releaseYear;
     private String title;
 
-    @ManyToOne
-    private List<Genre> genre;
+    @OneToMany
+    private List<Genre> genres;
 
     @ManyToOne
     @JoinColumn(name = "artist_id")
@@ -51,11 +51,11 @@ public class Album {
         this.artist = artist;
     }
 
-    public Genre getGenre() {
-        return genre;
+    public List<Genre> getGenres() {
+        return genres;
     }
 
-    public void setGenre(Genre genre) {
-        this.genre = genre;
+    public void setGenres(List<Genre> genre) {
+        this.genres = genres;
     }
 }

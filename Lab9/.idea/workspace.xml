@@ -5,87 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="921964f0-89f2-4c90-868e-d1426d738c76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/models/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/models/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/models/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/repositories/AbstractRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/repositories/AlbumRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/repositories/ArtistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/repositories/GenreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1/target/classes/org/example/LatinSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/target/classes/org/example/LatinSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/Problem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/ProblemGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/ProblemGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/SolutionLocationComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/SolutionLocationComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/location/Airport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/location/Airport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/location/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/location/City.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/location/GasStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/location/GasStation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/location/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/location/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/road/ExpressRoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/road/ExpressRoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/road/HighwayRoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/road/HighwayRoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/road/Road.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/target/classes/ro/tedyst/road/Road.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/classpath.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Bonus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Bonus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Designer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Designer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Network.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Network.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Programmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/classes/ro/tedyst/Programmer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/test-classes/classpath.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/test-classes/ro/tedyst/BonusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/test-classes/ro/tedyst/BonusTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/target/test-classes/ro/tedyst/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/target/test-classes/ro/tedyst/PersonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/Catalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/Catalog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/CatalogException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/CatalogException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/CatalogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/CatalogUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/Document.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/AddCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/AddCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/CommandException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/CommandException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/GenericCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/GenericCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/ListCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/ListCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/LoadCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/LoadCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/ReportCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/ReportCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/SaveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/SaveCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/ToStringCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/ToStringCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/ViewCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/target/classes/ro/tedyst/commands/ViewCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/ConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/ConfigPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/ControlPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/ControlPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/DrawingPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/DrawingPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/DrawingPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/DrawingPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/DrawingPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/EdgeColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/EdgeColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/GameAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/GameAI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/GameState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/GameUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/GameUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/target/classes/ro/tedyst/game/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Daemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Daemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/GameMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/GameMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/SharedMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/SharedMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/target/classes/ro/tedyst/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/src/main/java/ro/tedyst/repositories/AlbumRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/main/java/ro/tedyst/repositories/AlbumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Client/src/main/java/ro/tedyst/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Client/src/main/java/ro/tedyst/Client/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/src/main/java/ro/tedyst/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/src/main/java/ro/tedyst/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab10/Server/src/main/java/ro/tedyst/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tedyst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tedyst/models/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tedyst/models/Album.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,33 +51,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JPA.DatabaseSchemaImportDialog": "a241b8cb-fd2a-4d77-a7cf-e577d94f9e85",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "/home/tedy/Git/PA2023_A5/Lab9/src/main/java/ro/tedyst/models",
-    "last_opened_file_path": "/home/tedy/Git/PA2023_A5/Lab9/src/main/java/ro/tedyst/models",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.37777779",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;a241b8cb-fd2a-4d77-a7cf-e577d94f9e85&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/tedy/Git/PA2023_A5/Lab9/src/main/java/ro/tedyst/models&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tedy/Git/PA2023_A5/Lab9/src/main/java/ro/tedyst/models&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37777779&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "h2"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -178,6 +119,7 @@
       <workItem from="1683033444093" duration="5087000" />
       <workItem from="1683552030510" duration="26000" />
       <workItem from="1683569197766" duration="3760000" />
+      <workItem from="1683634475993" duration="3464000" />
     </task>
     <servers />
   </component>
