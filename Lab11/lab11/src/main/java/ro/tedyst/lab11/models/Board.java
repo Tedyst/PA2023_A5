@@ -1,44 +1,30 @@
 package ro.tedyst.lab11.models;
 
-import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.*;
 
-@Entity
-public class Board {
+@JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
+public class Board implements Serializable {
     public static int BOARD_SIZE = 15;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @OneToMany(cascade=CascadeType.ALL)
-    private final List<BoardLine> lines = new ArrayList<>();
+    int[][] board = new int[BOARD_SIZE][BOARD_SIZE];
 
     public Board() {
-        for(int i = 0; i < BOARD_SIZE; i++) {
-            lines.add(new BoardLine());
+        for (int i = 0; i < BOARD_SIZE; i++) {
+            board[i] = new int[BOARD_SIZE];
         }
     }
 
-    public Long getId() {
-        return id;
+    public int getPosition(int x, int y) {
+        return board[x][y];
     }
 
-    public List<BoardLine> getLines() {
-        return lines;
+    public void setPosition(int x, int y, int value) {
+        board[x][y] = value;
     }
 
-    public BoardLine getLine(int position) {
-        return lines.get(position);
-    }
-
-    public Player getPosition(int x, int y) {
-        var line = getLine(x);
-        if (line == null) {
-            return null;
-        }
-        return line.getColumn(y);
+    public int[] getLine(int x){
+        return board[x];
     }
 }

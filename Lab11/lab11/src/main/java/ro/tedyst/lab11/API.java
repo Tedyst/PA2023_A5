@@ -72,8 +72,8 @@ public class API {
         return player;
     }
 
-    @DeleteMapping
-    public void deletePlayer(@PathVariable String playerName) {
+    @DeleteMapping("/player/{playerName}")
+    public void deletePlayer(@PathVariable String playerName) throws InvalidGameException {
         Player player = playerRepository.findByName(playerName);
         if (player == null) {
             return;

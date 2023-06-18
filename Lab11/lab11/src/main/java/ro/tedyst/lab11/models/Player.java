@@ -8,13 +8,13 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    private Game game;
-
     private String name;
 
     public Player(String name) {
         this.name = name;
+    }
+
+    protected Player() {
     }
 
     public String getName() {
@@ -23,9 +23,5 @@ public class Player {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Game getGame() {
-        return game;
     }
 }

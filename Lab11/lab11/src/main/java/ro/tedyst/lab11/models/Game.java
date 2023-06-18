@@ -22,7 +22,7 @@ public class Game {
     @ElementCollection()
     private Map<Player, Integer> remainingTime = new HashMap<>();
 
-    @OneToOne(cascade=CascadeType.ALL)
+    @Lob
     private Board board = new Board();
 
     public Integer getRemainingTime(Player player) {
@@ -55,5 +55,9 @@ public class Game {
 
     public Board getBoard() {
         return board;
+    }
+
+    public Long getId() {
+        return id;
     }
 }
